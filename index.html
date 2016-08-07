@@ -12,7 +12,8 @@
     <title>QUe by Quality and Usability Lab</title>
 	
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/cover.css" rel="stylesheet">
+    <!-- <link href="css/cover.css" rel="stylesheet"> -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
@@ -25,63 +26,38 @@
   </head>
 
   <body>
-
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="inner cover">
-            <h1 class="cover-heading">QUe</h1>
-            <p class="lead">QUe is an open source conference app solution for Android and iOS.</p>
-            <p class="lead">
-	      <div class="btn-group">
-  	      	<button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    			Get QUe<span class="caret"></span>
-  		</button>
-  		<ul class="dropdown-menu">
-  			<li class="dropdown-header">Android</li>
-  			<li><a href="https://github.com/QULab/QUe-Android">Android</a></li>
-  			<li role="separator" class="divider"></li>
-  			<li class="dropdown-header">iOS</li>
-    			<li><a href="https://github.com/QULab/QUe-iOS">Objective-C</a></li>
-    			<li><a href="https://github.com/QULab/QUe-iOS-Swift">Swift</a></li>
-    			
-  		</ul>
-	      </div>
-            </p>
-            
-            QUe has been used for the following scientific conferences:
-            <ul class="list-group">
-  		<li class="list-group-item">Interspeech <span class="badge">2013</span><span class="badge">2014</span><span class="badge">2015</span></li>
-  		<li class="list-group-item">DAGA</li>
-  		<li class="list-group-item">DGA</li>
-	    </ul>
-            <ul>
-  	    <li>Interspeech 2013 (<a href="https://play.google.com/store/apps/details?id=de.qu.interspeech">Android</a> || <a href="https://itunes.apple.com/us/app/interspeech/id675629646?mt=8">iOS</a> )</li>
-  	    <li>Interspeech 2014 (<a href="https://play.google.com/store/apps/details?id=de.tel.quenference.activities">Android</a> || <a href="https://itunes.apple.com/us/app/interspeech-2014/id913928369?mt=8">iOS</a>)</li>
-  	    <li>Interspeech 2015 (<a href="https://play.google.com/store/apps/details?id=org.is15.activities">Android</a> || <a href="https://itunes.apple.com/app/interspeech-2015/id1019212701">iOS</a>)</li>
-  	    <li>DAGA 2014 (<a href="https://play.google.com/store/apps/details?id=de.qu.daga2014">Android</a> || <a href="https://itunes.apple.com/us/app/daga-2014/id821657972?mt=8">iOS</a>)</li>
-  	    <li>DAGA 2015 (<a href="https://play.google.com/store/apps/details?id=org.que.activities&hl=de">Android</a> || <a href="https://itunes.apple.com/us/app/daga-2015/id964465420?mt=8">iOS</a>)</li>
-  	    <li>DAGA 2016 (<a href="https://play.google.com/store/apps/details?id=de.qu.daga2016&hl=de">Android</a> || <a href="https://itunes.apple.com/de/app/daga-2016/id1078177194?mt=8">iOS</a>)</li>
-  	    <li>DGA 2014 (<a href="https://play.google.com/store/apps/details?id=de.qu.dga2014">Android</a> || <a href="https://itunes.apple.com/us/app/dga-2014/id824205049?mt=8">iOS</a>)</li>
-	  </ul>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div>
-
-        </div>
-
+    <div class="container">
+      <div class="jumbotron">
+          <h1>QUe</h1>
+          <p class="lead">QUe is an open source conference app solution for Android and iOS.</p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-lg dropdown-toggle btn-success" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Get QUe<span class="caret"></span>
+    		    </button>
+    		    <ul class="dropdown-menu">
+    			    <li class="dropdown-header">Android</li>
+    			    <li><a href="https://github.com/QULab/QUe-Android">Android</a></li>
+    			    <li role="separator" class="divider"></li>
+    			    <li class="dropdown-header">iOS</li>
+      			  <li><a href="https://github.com/QULab/QUe-iOS">Objective-C</a></li>
+      			  <li><a href="https://github.com/QULab/QUe-iOS-Swift">Swift</a></li>    			
+    		    </ul>
+  	      </div>
       </div>
 
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Conferences using QUe</h3>
+        </div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item">Interspeech <span class="badge">2015</span><span class="badge">2014</span><span class="badge">2013</span></li>
+            <li class="list-group-item">DAGA <span class="badge">2016</span><span class="badge">2015</span><span class="badge">2014</span></li>
+            <li class="list-group-item">DGA <span class="badge">2014</span></li>
+          </ul>
+        </div>
+      </div>
     </div>
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="assets/js/docs.min.js"></script>
